@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>COVID-19 Detector</title>
+  </head>
+
+  <body><div>
+
+  <br>
+  
+    <nav class="nav nav-pills nav-justified navbar-dark bg-dark">
+        <a class="nav-item nav-link active" href="#">COVID-19 Detector</a>
+        <a class="nav-item nav-link" href="#">About us</a>
+        <a class="nav-item nav-link" href="#">Contact</a>
+        <a class="nav-item nav-link disabled" href="#">Disabled</a>
+      </nav>
+      </div>
+      <div class="container">
+          <h2 style="color: rgb(24, 163, 255);" class=" text-center mt-3">Corona Virus Probability Detector</h2>
+          <section>
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-8 col-xl-6">
+                  <div class="row">
+                    <div class="col text-center">
+                      
+                      </div>
+                  </div>
+                  <form action="/" method="POST">
+                  <div class="row align-items-center">
+                    <div class="col mt-4">
+                        <div class="row align-items-center mt-4">
+                            <div class="col form-group">
+                                <label>Fever:</label>
+                                <select name="Fever" id="" class="form-control custom select">
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                               
+                            </select>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row align-items-center mt-4">
+                    <div class="col form-group">
+                        <label> Body pain</label>
+                        <select name="Bodypain" id="" class="form-control custom select">
+                        <option value="1">no pain</option>
+                        
+                        <option value="0">Yes pain</option>
+                    </select>
+                    </div>
+                  </div>
+                  <div class="row align-items-center mt-4">
+                    <div class="col">
+                        <label> Age: </label>
+                      <input name='age' type="text" class="form-control" placeholder="Age">
+                    </div>
+                  </div>
+                  <div class="row align-items-center mt-4">
+                    <div class="col form-group">
+                        <label>Runny Nose</label>
+                        <select name="Runnynose" id="" class="form-control custom select">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                       
+                    </select>
+                    </div>
+                  </div>
+                  <div class="row align-items-center mt-4">
+                    <div class="col form-group">
+                        <label>Difficulty in breathhing</label>
+                        <select name="breathhing" id="" class="form-control custom select">
+                        <option value="1">High Problem</option>
+                        <option value="-1">Medium Problem</option>
+                        <option value="0">No</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="row align-items-center mt-4">
+                    <div class="col form-group">
+                        <label>Cough</label>
+                        <select name="Cough" id="" class="form-control custom select">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                       
+                    </select>
+                    </div>
+                </div>
+                  <div class="row align-items-center mt-4">
+                    <div class="col">
+                    
+                    </div>
+                    <div class="col">
+                    </div>
+                  </div>
+                  <div class="row justify-content-start mt-4">
+                    <div class="col">
+                       <button class="btn btn-success mt-4" type="submit">Submit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+      </div>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
